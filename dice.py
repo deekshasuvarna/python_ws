@@ -2,6 +2,7 @@
 import random as rn
 num=rn.randint(1,6)
 count=0
+
 while True:
     inp_num=int(input("enter the number:"))
     if inp_num==num:
